@@ -3,25 +3,19 @@ Network Mapping &amp; Scanning Lab A personal cybersecurity project focused on h
 
 # 🧠 Network Mapping & Scanning Lab
 
-This project focuses on **network discovery, port scanning, and traffic analysis** using **Nmap** and **Wireshark**.  
-It was created as part of my cybersecurity learning path to understand how hosts, ports, and services operate within a local network and how network mapping supports threat detection and defensive analysis.
+This repository contains a small, controlled lab for **network discovery and traffic analysis** using Nmap and Wireshark.  
+All files published here are sanitized to avoid exposing private information (IP addresses, MAC addresses, hostnames).
 
 ---
 
-## 🎯 Objectives
+## 🔎 Project summary
 
-- Identify all active devices within a local network.  
-- Perform port and service scanning using **Nmap**.  
-- Analyze generated traffic with **Wireshark**.  
-- Document discovered hosts, open ports, and communication patterns.  
-- Strengthen foundational knowledge in network security and ethical hacking.
+- **Target (example):** Sonos speaker (personal device) — IPs masked for public sharing.  
+- **Tools used:** Nmap, Wireshark, tshark, (optional) Python for parsing.  
+- **Goal:** practice host discovery, port/service enumeration, and packet capture analysis in an ethical, controlled environment.
 
 ---
 
-## ⚙️ Environment Setup
+## 📁 Repository structure
 
-### 🖥️ Option B — Home Network
-- Run Nmap from your main PC on your home router’s IP range.  
-- Example:
-  ```bash
-  nmap -sn 192.168.0.0/24
+
