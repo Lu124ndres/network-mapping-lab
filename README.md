@@ -20,11 +20,6 @@ It was created as part of my cybersecurity learning path to understand how hosts
 
 ## ⚙️ Environment Setup
 
-### 🖥️ Option A — Virtual Lab (Recommended)
-- **Attacker machine:** Kali Linux (includes Nmap preinstalled).  
-- **Target machine:** Ubuntu or Metasploitable 2 (with open services).  
-- Connect both to a **Host-Only** or **Internal Network** in VirtualBox/VMware.  
-
 ### 🖥️ Option B — Home Network
 - Run Nmap from your main PC on your home router’s IP range.  
 - Example:
