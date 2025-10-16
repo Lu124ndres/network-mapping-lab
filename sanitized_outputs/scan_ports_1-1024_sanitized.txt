@@ -1,0 +1,12 @@
+# Nmap 7.98 scan initiated Wed Oct 15 19:48:39 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -p 1-1024 -oN scan_ports_1-1024.txt 192.168.1.xxx
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.0069s latency).
+Not shown: 1020 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+139/tcp open  netbios-ssn
+443/tcp open  https
+445/tcp open  microsoft-ds
+MAC Address: MAC_REDACTED (Belkin International)
+
+# Nmap done at Wed Oct 15 19:48:40 2025 -- 1 IP address (1 host up) scanned in 1.02 seconds

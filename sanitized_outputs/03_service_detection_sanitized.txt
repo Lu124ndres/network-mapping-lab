@@ -1,0 +1,11 @@
+# Nmap 7.98 scan initiated Wed Oct 15 19:58:07 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV --version-intensity 0 -p 443,80 -oN 03_service_detection.txt 192.168.1.xxx
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.033s latency).
+
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     lighttpd 1.4.39
+443/tcp open  ssl/http lighttpd 1.4.39
+MAC Address: MAC_REDACTED (Belkin International)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 15 19:58:19 2025 -- 1 IP address (1 host up) scanned in 12.64 seconds

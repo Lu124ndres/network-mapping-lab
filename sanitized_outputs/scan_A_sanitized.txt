@@ -1,0 +1,56 @@
+# Nmap 7.98 scan initiated Wed Oct 15 19:50:01 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -A -oN scan_A.txt 192.168.1.xxx
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.0095s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT      STATE SERVICE     VERSION
+80/tcp    open  http        lighttpd 1.4.39
+|_http-server-header: lighttpd/1.4.39
+|_http-title: DEVICE_REDACTED Smart Wi-Fi
+|_ms-sql-ntlm-info: ERROR: Script execution failed (use -d to debug)
+|_ms-sql-info: ERROR: Script execution failed (use -d to debug)
+139/tcp   open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+|_ms-sql-ntlm-info: ERROR: Script execution failed (use -d to debug)
+|_ms-sql-info: ERROR: Script execution failed (use -d to debug)
+443/tcp   open  ssl/http    lighttpd 1.4.39
+|_http-server-header: lighttpd/1.4.39
+| ssl-cert: Subject: commonName=linksyssmartwifi.com/organizationName=Belkin International, Inc./stateOrProvinceName=California/countryName=US
+| Subject Alternative Name: DNS:linksyssmartwifi.com, DNS:www.linksyssmartwifi.com, DNS:localdomain_replaced, DNS:WRT1900ACS.home.DEVICE_REDACTED.com
+| Not valid before: 2018-05-01T18:10:04
+|_Not valid after:  2028-04-28T18:10:04
+|_ssl-date: TLS randomness does not represent time
+|_http-title: DEVICE_REDACTED Smart Wi-Fi
+|_ms-sql-ntlm-info: ERROR: Script execution failed (use -d to debug)
+|_ms-sql-info: ERROR: Script execution failed (use -d to debug)
+445/tcp   open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+|_ms-sql-info: ERROR: Script execution failed (use -d to debug)
+|_ms-sql-ntlm-info: ERROR: Script execution failed (use -d to debug)
+10000/tcp open  http        lighttpd 1.4.39
+|_http-server-header: lighttpd/1.4.39
+|_http-title: 403 - Forbidden
+|_ms-sql-ntlm-info: ERROR: Script execution failed (use -d to debug)
+|_ms-sql-info: ERROR: Script execution failed (use -d to debug)
+MAC Address: MAC_REDACTED (Belkin International)
+Device type: general purpose
+Running: Linux 3.X
+OS CPE: cpe:/o:linux:linux_kernel:3
+OS details: Linux 3.2 - 3.16
+Network Distance: 1 hop
+
+Host script results:
+|_clock-skew: -2s
+|_nbstat: NetBIOS name: DEVICE_REDACTED, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+|_smb2-time: Protocol negotiation failed (SMB2)
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: share (dangerous)
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_ms-sql-info: ERROR: Script execution failed (use -d to debug)
+|_smb-os-discovery: ERROR: Script execution failed (use -d to debug)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   9.54 ms DEVICE_REDACTED (192.168.1.xxx)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 15 19:51:14 2025 -- 1 IP address (1 host up) scanned in 72.71 seconds

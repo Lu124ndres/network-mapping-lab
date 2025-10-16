@@ -1,0 +1,64 @@
+# Nmap 7.98 scan initiated Wed Oct 15 19:38:13 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sn -oN scan_hosts.txt 192.168.1.xxx/24
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.0060s latency).
+MAC Address: MAC_REDACTED (Belkin International)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.16s latency).
+MAC Address: MAC_REDACTED (DEVICE_REDACTED)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.020s latency).
+MAC Address: MAC_REDACTED (Hangzhou Hikvision Digital Technology)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.019s latency).
+MAC Address: MAC_REDACTED (DEVICE_REDACTED)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.068s latency).
+MAC Address: MAC_REDACTED (Belkin International)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.085s latency).
+MAC Address: MAC_REDACTED (Apple)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.16s latency).
+MAC Address: MAC_REDACTED (DEVICE_REDACTED)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.11s latency).
+MAC Address: MAC_REDACTED (Hon Hai Precision Ind.)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.016s latency).
+MAC Address: MAC_REDACTED (DEVICE_REDACTED)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.030s latency).
+MAC Address: MAC_REDACTED (Belkin International)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.16s latency).
+MAC Address: MAC_REDACTED (Arcadyan)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.10s latency).
+MAC Address: MAC_REDACTED (Philips Lighting BV)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.17s latency).
+MAC Address: MAC_REDACTED (Google)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.079s latency).
+MAC Address: MAC_REDACTED (AboCom)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.055s latency).
+MAC Address: MAC_REDACTED (Unknown)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.11s latency).
+MAC Address: MAC_REDACTED (DEVICE_REDACTED)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.025s latency).
+MAC Address: MAC_REDACTED (Microsoft)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.10s latency).
+MAC Address: MAC_REDACTED (The Chamberlain Group)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.077s latency).
+MAC Address: MAC_REDACTED (DEVICE_REDACTED)
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.059s latency).
+MAC Address: MAC_REDACTED (Belkin International)
+Nmap scan report for DEVICE_REDACTED
+Host is up.
+# Nmap done at Wed Oct 15 19:38:21 2025 -- 256 IP addresses (21 hosts up) scanned in 7.49 seconds

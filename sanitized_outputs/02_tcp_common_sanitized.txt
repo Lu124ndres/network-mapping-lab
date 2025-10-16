@@ -1,0 +1,15 @@
+WARNING: Duplicate port number(s) specified.  Are you alert enough to be using Nmap?  Have some coffee or Jolt(tm).
+# Nmap 7.98 scan initiated Wed Oct 15 19:57:09 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sT -p 22,80,443,1400,3400,5000,1400 -oN 02_tcp_common.txt 192.168.1.xxx
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.054s latency).
+
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  open   https
+1400/tcp closed cadkey-tablet
+3400/tcp closed csms2
+5000/tcp closed upnp
+MAC Address: MAC_REDACTED (Belkin International)
+
+# Nmap done at Wed Oct 15 19:57:10 2025 -- 1 IP address (1 host up) scanned in 0.31 seconds

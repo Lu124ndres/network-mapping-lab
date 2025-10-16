@@ -1,0 +1,19 @@
+# Nmap 7.98 scan initiated Wed Oct 15 20:00:14 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -O -oN 04_OS_detection.txt 192.168.1.xxx
+Nmap scan report for DEVICE_REDACTED
+Host is up (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT      STATE SERVICE
+80/tcp    open  http
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+10000/tcp open  snet-sensor-mgmt
+MAC Address: MAC_REDACTED (Belkin International)
+Device type: general purpose
+Running: Linux 3.X
+OS CPE: cpe:/o:linux:linux_kernel:3
+OS details: Linux 3.2 - 3.16
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 15 20:00:16 2025 -- 1 IP address (1 host up) scanned in 2.42 seconds
