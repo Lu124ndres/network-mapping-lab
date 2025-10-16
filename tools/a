@@ -1,0 +1,18 @@
+# Commands executed (ANONYMIZED)
+# Replace 192.168.1.xxx with your lab target IP before running.
+
+PS C:\Users\luisa> nmap -O 192.168.1.xxx -oN 04_OS_detection.txt
+# OS detection - saves output to 04_OS_detection.txt
+
+PS C:\Users\luisa> tracert 192.168.1.xxx
+# Traceroute to target (Windows)
+
+PS C:\Users\luisa> nmap -p 1-1024 192.168.1.xxx -oN scan_ports_1-1024.txt
+# TCP port scan for ports 1-1024 - saves output to scan_ports_1-1024.txt
+
+PS C:\Users\luisa> nmap -sV --version-intensity 0 -p 443,80 192.168.1.xxx -oN 03_service_detection.txt
+# Service/version detection (low intensity) on ports 443 and 80 - saves output to 03_service_detection.txt
+
+# Notes:
+# - These commands are provided for documentation purposes. Do NOT run them on networks or devices you do not own or have authorization to test.
+# - After running scans, sanitize outputs before publishing (mask MACs, last octet of IPs, hostnames).
