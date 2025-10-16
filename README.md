@@ -16,6 +16,3 @@ All files published here are sanitized to avoid exposing private information (IP
 
 ---
 
-## 📁 Repository structure
-
-
